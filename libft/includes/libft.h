@@ -23,10 +23,14 @@
 # include "stack.h"
 # include "queue.h"
 # include "ft_math.h"
-
-/*
-** 					libft/ADT/ (Abstract Data Type):
-*/
+# include <stdint.h>
+// # ifndef intmax_t
+// typedef long long intmax_t;
+// # endif
+//
+// # ifndef uintmax_t
+// typedef unsigned long long uintmax_t;
+// # endif
 /*
 **					libft/math/
 */
@@ -60,10 +64,6 @@ void				*ft_memcpy(void *dest, const void *src, size_t len);
 void				ft_memdel(void **ap);
 void				*ft_memmove(void *dst, const void *src, size_t len);
 void				*ft_memset(void *dest, int c, size_t len);
-
-/*
-** 					libft/print/
-*/
 /*
 **					libft/str
 */

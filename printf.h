@@ -17,7 +17,6 @@
 # include "colors.h"
 # include <float.h>
 # include <wchar.h>
-# include <stdint.h>
 # include <math.h>
 
 # define FLAGS			"#0-+ b"
